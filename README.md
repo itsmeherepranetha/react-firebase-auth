@@ -14,3 +14,18 @@ VITE_FIREBASE_MESSAGING_SENDER_ID=your_firebase_message_sender_id
 VITE_FIREBASE_APP_ID=your_firebase_app_id
 ```
 
+## Install dependencies
+
+- In the root,
+```
+npm i
+```
+
+## Run it
+
+- In the root,
+```
+npm run dev
+```
+
+
