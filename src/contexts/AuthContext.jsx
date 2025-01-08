@@ -39,8 +39,8 @@ export function AuthProvider({children})
                 setCurrentUser(user);
             } else {
                 setCurrentUser(null);
+                navigate('/login');
             }
-            navigate('/login')
             setLoading(false);
         });
         return unsubscribe;
